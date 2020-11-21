@@ -1,0 +1,91 @@
+body{
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+
+#header{
+  background-color: rgb(66, 153, 187);
+  height: 15vh;
+  font-size: 32px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+
+  }
+#header-spacer{
+width: 80vw;
+}
+
+
+section{
+  height: 15vh;
+  background-color: rgb(30, 31, 32);
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+  justify-content: space-between;
+}
+
+aside{
+  display: flex;
+  width: 10vw;
+  background-color:rgb(30, 31, 32);
+}
+
+article{
+  display: flex;
+  width: 10vw;
+  background-color: rgb(30, 31, 32);
+}
+
+
+ #data-display{
+ margin:40px;
+
+} 
+
+#navigator{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color:rgb(30, 31, 32);
+  color: white;
+  height:10vh ;
+  width:80vw;
+
+}
+
+#nav-spacer{
+
+
+}
+#combo{
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  height: 70vh;
+  width: 80vw ;
+
+}
+ button{
+   color:white;
+   background-color: rgb(30, 31, 32);
+   border-width: 0;
+   font-size:20px;
+   font-weight: bolder;
+ }
+
+
+#name{
+  text-decoration: underline  rgb(0, 118, 184);
+
+}
